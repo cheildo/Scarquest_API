@@ -6,9 +6,11 @@ npm install
 npm start
 
 # API endpoints
-Circulating Supply endpoint /api/scar/circulating
+Circulating Supply endpoint:
+/api/scar/circulating
 
-Total Supply endpoint api/scar/total
+Total Supply endpoint:
+/api/scar/total
 
 
 Deployed on Heroku
