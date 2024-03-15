@@ -5,10 +5,18 @@ An API endpoint to return the circulating supply for Scarquest SCAR token
 npm install
 npm start
 
-# How it work
-To get the circulating supply
-http://yourdomain.com/api/scar/circulating
+# API endpoints
+Circulating Supply endpoint /api/scar/circulating
+Total Supply endpoint api/scar/total
 
-To get the total supply
-http://yourdomain.com/api/scar/total
+
+Deployed on Heroku
+
+Circulating Supply
+https://coinmarketcap-supply-api-126726171225.herokuapp.com/api/scar/circulating
+
+
+Total Supply
+https://coinmarketcap-supply-api-126726171225.herokuapp.com/api/scar/total
+
 
