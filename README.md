@@ -7,6 +7,7 @@ npm start
 
 # API endpoints
 Circulating Supply endpoint /api/scar/circulating
+
 Total Supply endpoint api/scar/total
 
 
