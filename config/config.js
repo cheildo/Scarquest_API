@@ -2,6 +2,10 @@ const treasuryAddress = "0x549e5F96803cA277F17561624aA026380D85a833";
 
 const scarAddress = "0x8d9fB713587174Ee97e91866050c383b5cEE6209";
 
+const usdtAddress = '0x55d398326f99059fF775485246999027B3197955'; // USDT address on Binance Smart Chain
+
+const routerAddress = '0x10ED43C718714eb63d5aA57B78B54704E256024E';
+
 const scarABI= [
 	{
 		"anonymous": false,
@@ -791,10 +795,42 @@ const scarABI= [
 	}
 ];
 
+const routerABI = [
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "amountIn",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address[]",
+                "name": "path",
+                "type": "address[]"
+            }
+        ],
+        "name": "getAmountsOut",
+        "outputs": [
+            {
+                "internalType": "uint256[]",
+                "name": "amounts",
+                "type": "uint256[]"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+];
+
 
 
 module.exports = {
 	treasuryAddress,
     scarAddress,
     scarABI,
+	routerAddress,
+	routerABI,
+	usdtAddress
 }

@@ -12,6 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.3",
-    "web3": "^1.8.2"
+    "redis": "^4.6.13",
+    "web3": "^1.8.2",
+    "winston": "^3.13.0",
+    "winston-telegram": "^2.7.0"
   }
 }
